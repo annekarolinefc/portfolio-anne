@@ -1,0 +1,31 @@
+*{
+    padding: 2px 20px;
+}
+li{
+    list-style-type: none;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+}
+
