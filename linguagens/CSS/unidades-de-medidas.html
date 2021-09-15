@@ -24,7 +24,7 @@
                     <li>rem, em</li>
                     <li>vw, vh</li>
                     <li>vmin, vmax</li>
-                    ex, ch
+                    <li>ex, ch</li>
                 </ul>
                 Unidades Absolutas: Vão ter o mesmo tamanho, independente de qualquer coisa. Não mudam com o tamanho da tela, isto é, sempre mantem o mesmo tamanho.
                 <ul>
@@ -34,6 +34,7 @@
                 </ul>
             </p>
         </fieldset>
+        <h2>Unidades Absolutas</h2>
         <fieldset>
             <legend>Pixels</legend>
             Pixels é sempre um pixels. Independente do tamanho da tela. 
@@ -66,23 +67,40 @@
                 No CSS elas são interessantes de serem aplicadas quando você utiliza o media query "print" definindo o seu estilo para quando as páginas web forem impressas.
             </p>
         </fieldset>
-        <fieldset>
-            <legend>Unidades Relativas</legend>
-        </fieldset>
+
+        <br>
+            <h2>Unidades Relativas</h2>
         <fieldset>
             <legend>Porcentagem</legend>
+            <p>O valor em % é baseado no tamanho do elemento pai.
+                Uma unidade bem tranquila de entender e uma das mais comuns.
+            </p>
+           
         </fieldset>
         <fieldset>
             <legend>Rem e Em</legend>
+            <p>Rem e Em são unidades baseadas na propriedade font-size.
+                O rem é baseado no font-size do root element. Pode ser o font-size do html, body ou qualquer elemento, desde que seja o elemento mais alto na hierarquia.
+                O em também é baseado na propriedade font-dize, porem do elemento atual. 
+                Pode ser o font-size dele mesmo ou de qualquer outro elemento, desde que seja o elemento mais proximo na hierarquia.
+            </p>
         </fieldset>
         <fieldset>
             <legend>View Width e View height</legend>
+            <p>São os famosos vw e vw e são baseados no tamanho da viewport. Isto é, o tamanho disponível na tela para exibição da página.
+                Ambas as unidades são relativas a 1% do viewport, sendo o vw relativo à largura e o vw relativo à altura.
+            </p>
         </fieldset>
         <fieldset>
             <legend>Vmin e Vmax</legend>
+            <p>São unidades baseadas nos tamanhos mínimo e máximo do viewport.</p>
         </fieldset>
         <fieldset>
             <legend>Ex e Ch</legend>
+            <p>As unidades ex e ch são baseadas em caracteres específicos. 
+                O ex é baseado na altura da letra x na fonte atual.
+                O ch é baseado na largura do número 0 na fonte atual. 
+            </p>
         </fieldset>
     </fieldset>
 </body>
